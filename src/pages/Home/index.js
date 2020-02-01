@@ -44,6 +44,7 @@ export default function Home(){
             />
             <Card 
                 title="GUILA DEFENSE"
+                to="https://raymag.github.io/guila_defense/index"
                 body="Protect Guila's territory by all means"
                 footer="Unity2D, C#"
                 thumbnail="./assets/projects/heart-card.png"

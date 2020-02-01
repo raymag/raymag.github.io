@@ -101,6 +101,7 @@ export default function Misc(){
             />
             <Card 
                 title="GUILA DEFENSE"
+                to="https://raymag.github.io/guila_defense/index"
                 footer="Unity2D, C#"
                 thumbnail="./assets/projects/heart-card.png"
                 clean
