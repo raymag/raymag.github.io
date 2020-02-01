@@ -1,0 +1,29 @@
+footer#footer{
+    padding: 30px;
+    background: #541d82;
+    color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer#footer .highlight{
+    color: #ffc200;
+}
+footer#footer ul#footer-links{
+    margin-top: 10px;
+    list-style: none;
+}
+footer#footer ul#footer-links li{
+    display: inline;
+    margin: 2px 5px;
+    font-size: 30px;
+    transition: all .1s ease-in-out;
+}
+
+footer#footer ul#footer-links li a:hover{
+    font-size: 32px;
+    color: #fbff00;
+}   

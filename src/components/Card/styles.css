@@ -1,0 +1,66 @@
+a.react-card{
+    color: #222;
+    min-width: 20vw;
+    max-width: 250px;
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px #2600ff96;
+    cursor: pointer;
+    text-align: center;
+}
+a.react-card:hover{
+    text-shadow: none;
+}
+a.react-card .card-header{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #451d82;
+    background: -webkit-linear-gradient(45deg, #a400ff, #2700ff);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+}
+a.react-card:hover .card-header{
+    background: #e5d81d;
+    background: -webkit-linear-gradient(45deg, #8b8532, #ffee00, #b6ac20);
+}
+a.react-card:hover{
+    border: none;
+}
+a.react-card .card-body{
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    font-size: 22px;
+    color: #2600ffcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a.react-card .card-body.simple{
+    font-size: 30px;
+    font-weight: bold;
+}
+a.react-card .card-footer{
+    padding: 10px;
+    width: 100%;
+    height: 90px;
+    color: #888;
+    font-size: 15px;
+}
+a.react-card img{
+    width: 40%;
+}
+a.react-card.dark{
+    color: #e5e5e5;
+}

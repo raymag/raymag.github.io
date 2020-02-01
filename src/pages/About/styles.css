@@ -1,0 +1,13 @@
+.highlight{
+    color: #ffc200;
+}
+img#dev-pic{
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px #22222288;
+    margin: auto auto 20px auto;
+}
+
+p#bio{
+    text-align: center;
+    font-size: 18px;
+}
