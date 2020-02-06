@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "https://raymag.github.io/static/css/main.64a2c2af.chunk.css",
-    "main.js": "https://raymag.github.io/static/js/main.8b302b78.chunk.js",
-    "main.js.map": "https://raymag.github.io/static/js/main.8b302b78.chunk.js.map",
-    "runtime-main.js": "https://raymag.github.io/static/js/runtime-main.9db8816c.js",
-    "runtime-main.js.map": "https://raymag.github.io/static/js/runtime-main.9db8816c.js.map",
-    "static/js/2.1c2a1f28.chunk.js": "https://raymag.github.io/static/js/2.1c2a1f28.chunk.js",
-    "static/js/2.1c2a1f28.chunk.js.map": "https://raymag.github.io/static/js/2.1c2a1f28.chunk.js.map",
-    "index.html": "https://raymag.github.io/index.html",
-    "precache-manifest.f4f081f8503a4d53e49263e9d5de002e.js": "https://raymag.github.io/precache-manifest.f4f081f8503a4d53e49263e9d5de002e.js",
-    "service-worker.js": "https://raymag.github.io/service-worker.js",
-    "static/css/main.64a2c2af.chunk.css.map": "https://raymag.github.io/static/css/main.64a2c2af.chunk.css.map",
-    "static/js/2.1c2a1f28.chunk.js.LICENSE.txt": "https://raymag.github.io/static/js/2.1c2a1f28.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "https://raymag.github.io/static/media/theme.f1b0fe4f.png"
+    "main.css": "localhost:3000/static/css/main.62d2e5fc.chunk.css",
+    "main.js": "localhost:3000/static/js/main.f48c6412.chunk.js",
+    "main.js.map": "localhost:3000/static/js/main.f48c6412.chunk.js.map",
+    "runtime-main.js": "localhost:3000/static/js/runtime-main.8cd33fb5.js",
+    "runtime-main.js.map": "localhost:3000/static/js/runtime-main.8cd33fb5.js.map",
+    "static/js/2.1c2a1f28.chunk.js": "localhost:3000/static/js/2.1c2a1f28.chunk.js",
+    "static/js/2.1c2a1f28.chunk.js.map": "localhost:3000/static/js/2.1c2a1f28.chunk.js.map",
+    "index.html": "localhost:3000/index.html",
+    "precache-manifest.ced2902190ebe8c68c9ccee5aa50fb70.js": "localhost:3000/precache-manifest.ced2902190ebe8c68c9ccee5aa50fb70.js",
+    "service-worker.js": "localhost:3000/service-worker.js",
+    "static/css/main.62d2e5fc.chunk.css.map": "localhost:3000/static/css/main.62d2e5fc.chunk.css.map",
+    "static/js/2.1c2a1f28.chunk.js.LICENSE.txt": "localhost:3000/static/js/2.1c2a1f28.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "localhost:3000/static/media/theme.f1b0fe4f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9db8816c.js",
+    "static/js/runtime-main.8cd33fb5.js",
     "static/js/2.1c2a1f28.chunk.js",
-    "static/css/main.64a2c2af.chunk.css",
-    "static/js/main.8b302b78.chunk.js"
+    "static/css/main.62d2e5fc.chunk.css",
+    "static/js/main.f48c6412.chunk.js"
   ]
 }
