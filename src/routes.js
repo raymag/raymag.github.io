@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import React from 'react';
 
 import Home from './pages/Home';
@@ -12,7 +12,7 @@ import NavBar from './components/NavBar';
 export default function Routes(){
     return (
         <>
-        <BrowserRouter>
+        <HashRouter>
         <NavBar />
             <Switch>
                 <Route path='/' exact component={Home} />
@@ -21,7 +21,7 @@ export default function Routes(){
                 <Route path='/about' component={About} />
                 <Route component={e404} />
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
         </>
     )
 }
