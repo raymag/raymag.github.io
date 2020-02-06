@@ -32,6 +32,7 @@ header#header #header-box{
     z-index: 1;
     text-shadow: 4px 4px 15px var(--blue);
     transition: text-shadow .05s ease-in-out;
+    user-select: none;
 }
 header#header #header-box:hover{
     text-shadow: 4px 4px 15px var(--fuchsia);
@@ -72,6 +73,7 @@ nav#navbar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 2;
 }
 
 nav#navbar ul#navbar-links{
@@ -94,7 +96,7 @@ nav#navbar #navbar-logo span.highlight{
 
 @media only screen and (max-width: 720px){
     nav#navbar #navbar-logo{
-        font-size: 25px;
+        font-size: 22px;
     }
     nav#navbar ul#navbar-links{
         font-size: 18px;

@@ -1,0 +1,71 @@
+div.container{
+    margin: 40px auto;
+    border: solid 1px #e5e5e566;
+    border-radius: 6px;
+    padding: 5px;
+    padding-bottom: 0;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.container div#text-box h1{
+    font-size: 40px;
+    word-wrap: break-word;
+}
+div.container div#text-box span{
+    font-size: 20px;
+    color: #aaa;
+}
+
+div.container img#kermit{
+    width: 50%;
+    height: 110%;
+    margin: auto 5px;
+    position: relative;
+    bottom: 10%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+div.container div#text-box a{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 5px;
+}
+div.container div#text-box a:hover{
+    background: none;
+    color: white;
+    border: #22222200 solid 1px;
+}
+
+@media only screen and (max-width:720px){
+    div.container{
+        width: 100%;
+        border: none;
+    }
+    div.container div#text-box h1{
+        font-size: 30px;
+    }
+    div.container a{
+        display: inline-block;
+        color: yellow;
+        text-transform: uppercase;
+        border: solid 1px yellow;
+        border-radius: 6px;
+        padding: 5px;
+        margin: 5px auto;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:721px){
+    div.container div#text-box a{
+        border: solid 1px yellow;
+        border-radius: 6px;
+        background: yellow;
+        color: #222;
+        font-weight: bold;
+    }
+}
