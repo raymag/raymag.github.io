@@ -12,7 +12,7 @@ import NavBar from './components/NavBar';
 export default function Routes(){
     return (
         <>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
         <NavBar />
             <Switch>
                 <Route path='/' exact component={Home} />
