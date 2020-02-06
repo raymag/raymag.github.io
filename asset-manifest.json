@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.df77a692.chunk.css",
-    "main.js": "/static/js/main.d5890c19.chunk.js",
-    "main.js.map": "/static/js/main.d5890c19.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.73e5d9c0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.73e5d9c0.js.map",
-    "static/js/2.1c2a1f28.chunk.js": "/static/js/2.1c2a1f28.chunk.js",
-    "static/js/2.1c2a1f28.chunk.js.map": "/static/js/2.1c2a1f28.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e2a060f979babd759f3b8cc1f6e38342.js": "/precache-manifest.e2a060f979babd759f3b8cc1f6e38342.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.df77a692.chunk.css.map": "/static/css/main.df77a692.chunk.css.map",
-    "static/js/2.1c2a1f28.chunk.js.LICENSE.txt": "/static/js/2.1c2a1f28.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/static/media/theme.f1b0fe4f.png"
+    "main.css": "https://raymag.github.io/static/css/main.64a2c2af.chunk.css",
+    "main.js": "https://raymag.github.io/static/js/main.8b302b78.chunk.js",
+    "main.js.map": "https://raymag.github.io/static/js/main.8b302b78.chunk.js.map",
+    "runtime-main.js": "https://raymag.github.io/static/js/runtime-main.9db8816c.js",
+    "runtime-main.js.map": "https://raymag.github.io/static/js/runtime-main.9db8816c.js.map",
+    "static/js/2.1c2a1f28.chunk.js": "https://raymag.github.io/static/js/2.1c2a1f28.chunk.js",
+    "static/js/2.1c2a1f28.chunk.js.map": "https://raymag.github.io/static/js/2.1c2a1f28.chunk.js.map",
+    "index.html": "https://raymag.github.io/index.html",
+    "precache-manifest.f4f081f8503a4d53e49263e9d5de002e.js": "https://raymag.github.io/precache-manifest.f4f081f8503a4d53e49263e9d5de002e.js",
+    "service-worker.js": "https://raymag.github.io/service-worker.js",
+    "static/css/main.64a2c2af.chunk.css.map": "https://raymag.github.io/static/css/main.64a2c2af.chunk.css.map",
+    "static/js/2.1c2a1f28.chunk.js.LICENSE.txt": "https://raymag.github.io/static/js/2.1c2a1f28.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "https://raymag.github.io/static/media/theme.f1b0fe4f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73e5d9c0.js",
+    "static/js/runtime-main.9db8816c.js",
     "static/js/2.1c2a1f28.chunk.js",
-    "static/css/main.df77a692.chunk.css",
-    "static/js/main.d5890c19.chunk.js"
+    "static/css/main.64a2c2af.chunk.css",
+    "static/js/main.8b302b78.chunk.js"
   ]
 }
