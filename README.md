@@ -18,5 +18,5 @@ yarn install
 ### Running
 Now that you have installed all dependecies you just need to execute the follow command with your package manager, we're going to use **yarn** in this example.
 ```bash
-yarn dev
+yarn start
 ```
