@@ -3,18 +3,18 @@ import Box from '../../components/Box';
 import Card from '../../components/Card';
 
 import './styles.css';
-import CardData from '../../data/CardData';
+import SkillsData from '../../data/SkillsData';
 
 export default function Skills(){
     return (
         <Box title="Skills">
             {
-                CardData.map((card, index) => 
-                        (card['category'] === 'skill'?
+                SkillsData.map((skill, index) => 
+                        (skill['category'] === 'skill'?
                             <Card 
                                 key={index}
-                                title={card["title"]}
-                                thumbnail={card["thumbnail"]}
+                                title={skill["title"]}
+                                thumbnail={skill["thumbnail"]}
                                 simple
                             /> : ''
                         )        

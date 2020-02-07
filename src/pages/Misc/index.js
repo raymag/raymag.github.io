@@ -7,7 +7,7 @@ import CardData from '../../data/CardData';
 
 export default function Misc(){
     return (
-        <Box title="All">
+        <Box title="All Projects">
             {
                 CardData.map((card, index) => (
                     card['category'] !== 'skill' ?

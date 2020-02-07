@@ -18,8 +18,8 @@ export default function NavBar(){
         <span id="navbar-logo">MAGNO<span className="highlight">DEV</span></span>
         <ul id="navbar-links">
             <li><Link to="/" >Home</Link></li>
-            <li><Link to="/skills" >Skills</Link></li>
             <li><Link to="/misc" >All</Link></li>
+            <li><Link to="/skills" >Skills</Link></li>
             <li><Link to="/about" >About</Link></li>
         </ul>
     </nav>
