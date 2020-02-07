@@ -124,6 +124,13 @@ const CardData = [
         'thumbnail': './assets/misc/hack.png',       
         'category': 'side'
     },
+    {
+        'title': 'Instagram Bot',
+        'to': 'https://github.com/raymag/igbot',
+        'footer': 'Python, Selenium',
+        'thumbnail': './assets/misc/instagram.png',
+        'category': 'side'
+    },
 
     {
         "title": "Python",
