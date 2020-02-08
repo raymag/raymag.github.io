@@ -62,7 +62,7 @@ export default function Footer(){
             </li>
             <li>
                 <a
-                href="https://toot.cafe/@raymag"
+                href="https://mastodon.social/@raymag"
                 id="mastodon-icon"
                 target="_blank"
                 title="Mastodon"
