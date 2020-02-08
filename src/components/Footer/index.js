@@ -45,7 +45,7 @@ export default function Footer(){
                 href="https://www.linkedin.com/in/carlos-magno-n-10a2a0129/"
                 id="linkedin-icon"
                 target="_blank"
-                title="linkedin"
+                title="Linkedin"
                 alt="linkedin"
                 rel="noopener noreferrer"
                 ><FontAwesomeIcon icon={faLinkedin} /></a>    
@@ -65,7 +65,7 @@ export default function Footer(){
                 href="https://toot.cafe/@raymag"
                 id="mastodon-icon"
                 target="_blank"
-                title="mastodon"
+                title="Mastodon"
                 alt="mastodon"
                 rel="noopener noreferrer"
                 ><FontAwesomeIcon icon={faMastodon} /></a>    
@@ -85,7 +85,7 @@ export default function Footer(){
                 href="https://www.reddit.com/user/Blayde88"
                 id="reddit-icon"
                 target="_blank"
-                title="reddit"
+                title="Reddit"
                 alt="reddit"
                 rel="noopener noreferrer"
                 ><FontAwesomeIcon icon={faReddit} /></a>    
