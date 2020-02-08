@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faDev, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faDev, faInstagram, faTwitter, faStackOverflow, faLinkedin, faMastodon, faReddit } from '@fortawesome/free-brands-svg-icons';
 
 import './styles.css';
 
@@ -22,6 +22,36 @@ export default function Footer(){
             </li>
             <li>
                 <a
+                href="https://dev.to/raymag"
+                id="dev-icon"
+                target="_blank"
+                title="Dev"
+                alt="dev"
+                rel="noopener noreferrer"
+                ><FontAwesomeIcon icon={faDev} /></a>
+            </li>
+            <li>
+                <a
+                href="https://pt.stackoverflow.com/users/83459/carlos-magno"
+                id="stackoverflow-icon"
+                target="_blank"
+                title="StackOverflow"
+                alt="StackOverflow"
+                rel="noopener noreferrer"
+                ><FontAwesomeIcon icon={faStackOverflow} /></a>    
+            </li>
+            <li>
+                <a
+                href="https://www.linkedin.com/in/carlos-magno-n-10a2a0129/"
+                id="linkedin-icon"
+                target="_blank"
+                title="linkedin"
+                alt="linkedin"
+                rel="noopener noreferrer"
+                ><FontAwesomeIcon icon={faLinkedin} /></a>    
+            </li>
+            <li>
+                <a
                 href="https://instagram.com/blayde88"
                 id="instagram-icon"
                 target="_blank"
@@ -29,6 +59,16 @@ export default function Footer(){
                 alt="instagram"
                 rel="noopener noreferrer"
                 ><FontAwesomeIcon icon={faInstagram} /></a>    
+            </li>
+            <li>
+                <a
+                href="https://toot.cafe/@raymag"
+                id="mastodon-icon"
+                target="_blank"
+                title="mastodon"
+                alt="mastodon"
+                rel="noopener noreferrer"
+                ><FontAwesomeIcon icon={faMastodon} /></a>    
             </li>
             <li>
                 <a
@@ -42,14 +82,15 @@ export default function Footer(){
             </li>
             <li>
                 <a
-                href="https://dev.to/raymag"
-                id="dev-icon"
+                href="https://www.reddit.com/user/Blayde88"
+                id="reddit-icon"
                 target="_blank"
-                title="Dev"
-                alt="dev"
+                title="reddit"
+                alt="reddit"
                 rel="noopener noreferrer"
-                ><FontAwesomeIcon icon={faDev} /></a>
+                ><FontAwesomeIcon icon={faReddit} /></a>    
             </li>
+
         </ul>
       </footer>
     );
