@@ -11,3 +11,7 @@ p#bio{
     text-align: center;
     font-size: 18px;
 }
+
+.react-box{
+    padding: 100px 0 !important;
+}
