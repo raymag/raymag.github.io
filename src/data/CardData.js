@@ -149,6 +149,14 @@ const CardData = [
         'category': 'side',
         'type': 'bot'
     },
+    {
+        'title': 'vBorder Radius',
+        'to': 'https://raymag.github.io/vborder-radius',
+        'footer': 'Javascript, CSS',
+        'thumbnail': './assets/misc/creation.png',
+        'category': 'side',
+        'type': 'website'
+    },
 ]
 
 export default CardData;
