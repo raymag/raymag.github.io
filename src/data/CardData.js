@@ -8,12 +8,12 @@ const CardData = [
         'type': 'code snippet'
     },
     {
-        'title': 'PICS2MOVIE',
-        'to': 'https://github.com/raymag/mmk',
+        'title': 'Lomotif Maker',
+        'to': 'https://github.com/raymag/lomotif-maker',
         'footer': 'Python, FFMPEG',
         'thumbnail': './assets/misc/video-file.png',
         'category': 'side',
-        'type': 'script'
+        'type': 'Program'
     },
     {
         'title': 'TEMPLATE SOCKETIO',
