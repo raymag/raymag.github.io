@@ -20,7 +20,7 @@ export default function Misc(){
         }
         setProjects(projects);
         setPagesNumber(Math.ceil(projects.length/itemsPerPage));
-    }, [currentPage]);
+    }, []);
 
     function nextPage(){
         if(currentPage<pagesNumber){
