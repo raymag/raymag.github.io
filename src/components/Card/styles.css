@@ -68,3 +68,7 @@ a.react-card img{
 a.react-card.dark{
     color: #e5e5e5;
 }
+
+img.loading{
+    display: none;
+}
