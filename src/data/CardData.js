@@ -1,19 +1,28 @@
 const CardData = [
     {
+        'title': 'Lomotif Maker',
+        'to': 'https://github.com/raymag/lomotif-maker',
+        'footer': 'Python, FFMPEG',
+        'body': 'Easily make lomotif videos',
+        'thumbnail': './assets/misc/video-file.png',
+        'category': 'main',
+        'type': 'Program'
+    },
+    {
+        'title': 'InstaDown',
+        'to': 'https://github.com/raymag/instadown',
+        'footer': 'Python, Selenium',
+        'thumbnail': './assets/misc/camera.png',
+        'category': 'side',
+        'type': 'Program'
+    },
+    {
         'title': 'MCLOCK',
         'to': 'https://mclock.netlify.com/',
         'footer': 'Javascript, CSS, HTML',
         'thumbnail': './assets/misc/hourglass.png',  
         'category': 'side',
         'type': 'code snippet'
-    },
-    {
-        'title': 'Lomotif Maker',
-        'to': 'https://github.com/raymag/lomotif-maker',
-        'footer': 'Python, FFMPEG',
-        'thumbnail': './assets/misc/video-file.png',
-        'category': 'side',
-        'type': 'Program'
     },
     {
         'title': 'TEMPLATE SOCKETIO',
@@ -105,7 +114,7 @@ const CardData = [
         'footer': 'Python, Flask, SocketIO, Javascript',
         'thumbnail': './assets/projects/sun.png',
         'body': "Chat Room built with Python and WebSockets",
-        'category': 'main',
+        'category': 'side',
         'type': 'chat'
     },
     {
