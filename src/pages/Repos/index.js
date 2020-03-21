@@ -10,12 +10,14 @@ export default function Repos(){
     const [repos, setRepos] = useState([]);
     const [pagesNumber, setPagesNumber] = useState(1);
     const [currentPage, setCurrentPage] = useState(1);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(()=>{
         async function getRepos(){
             await fetch("https://api.github.com/users/raymag/repos?sort=updated")
                     .then(res => res.json())
                     .then(data => {
+                        setIsLoading(false);
                         setRepos(data);
                         setPagesNumber(Math.ceil(data.length/itemsPerPage));
                     });
@@ -36,6 +38,7 @@ export default function Repos(){
 
     return (
         <>
+
         <Box title="Repositories">
         <PageController
             previousPage={previousPage}
@@ -43,6 +46,7 @@ export default function Repos(){
             currentPage={currentPage}
             pagesNumber={pagesNumber}
         />
+        {isLoading ? <img src="./assets/loading.gif" alt="loading"/>:''}
         {
             repos.map((repo, index) => (
                 index >= ((currentPage*itemsPerPage)-itemsPerPage) && index < (currentPage*itemsPerPage)?

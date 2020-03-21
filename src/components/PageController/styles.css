@@ -1,3 +1,6 @@
+div.pageControllerWrapper{
+    width: 100%;
+}
 div.pageController{
     width: 80%;
     margin: 20px auto;
