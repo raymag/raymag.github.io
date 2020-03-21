@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Box from '../../components/Box';
 import Card from '../../components/Card';
+import PageController from '../../components/PageController';
 
 import './styles.css';
 import CardData from '../../data/CardData';
@@ -36,11 +37,12 @@ export default function Misc(){
     return (
         <>
         <Box title="All Projects" id="projects-box">
-        <div className="pageControllers">
-            <button onClick={previousPage} className="pageButton">&lt;</button>
-            <span>{currentPage} of {pagesNumber}</span>
-            <button onClick={nextPage} className="pageButton">&gt;</button>
-        </div>
+            <PageController 
+                previousPage={previousPage}
+                nextPage={nextPage}
+                currentPage={currentPage}
+                pagesNumber={pagesNumber}
+            />
             {
                 projects.map((card, index) => (
                     index >= ((currentPage*itemsPerPage) - itemsPerPage) && index < (currentPage * itemsPerPage)?
@@ -54,11 +56,12 @@ export default function Misc(){
                         /> : ''
                 ))
             }
-        <div className="pageControllers">
-            <button onClick={previousPage} className="pageButton">&lt;</button>
-            <span>{currentPage} of {pagesNumber}</span>
-            <button onClick={nextPage} className="pageButton">&gt;</button>
-        </div>
+            <PageController 
+                previousPage={previousPage}
+                nextPage={nextPage}
+                currentPage={currentPage}
+                pagesNumber={pagesNumber}
+            />
         </Box>
         </>
     )
