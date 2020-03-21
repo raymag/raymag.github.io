@@ -3,8 +3,9 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import React from 'react';
 
 import Home from './pages/Home';
-import Skills from './pages/Skills';
 import Misc from './pages/Misc';
+import Repos from './pages/Repos'
+import Skills from './pages/Skills';
 import About from './pages/About';
 import e404 from './pages/e404';
 
@@ -26,8 +27,9 @@ export default function Routes(){
             >
                 <Switch location={location}>
                     <Route path='/' exact component={Home} />
-                    <Route path='/skills' component={Skills} />
                     <Route path='/misc' component={Misc} />
+                    <Route path='/repos' component={Repos} />
+                    <Route path='/skills' component={Skills} />
                     <Route path='/about' component={About} />
                     <Route component={e404} />
                 </Switch>

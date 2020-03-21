@@ -9,7 +9,7 @@ a.react-postit{
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 3px 3px 10px #2600ff96;
-    margin: 10px auto;
+    margin: 20px 5px;
     border: none;
 }
 a.react-postit.dark{

@@ -28,7 +28,7 @@ export default function Misc(){
 
     return (
         <>
-        <Box title="All Projects" id="projects-box">
+        <Box title="All Projects">
             <PageController 
                 previousPage={previousPage}
                 nextPage={nextPage}

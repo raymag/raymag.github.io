@@ -19,6 +19,7 @@ export default function NavBar(){
         <ul id="navbar-links">
             <li><Link to="/" >Home</Link></li>
             <li><Link to="/misc" >All</Link></li>
+            <li><Link to="/repos" >Repos</Link></li>
             <li><Link to="/skills" >Skills</Link></li>
             <li><Link to="/about" >About</Link></li>
         </ul>
