@@ -10,16 +10,8 @@ export default function Misc(){
     const itemsPerPage = 8;
     const [currentPage, setCurrentPage] = useState(1);
     const [pagesNumber, setPagesNumber] = useState(1);
-    const [projects, setProjects] = useState([]);
     useEffect(()=>{
-        let projects = [];
-        for(let i=0;i<CardData.length;i++){
-            if(CardData[i]['category'] !== 'skill'){
-                projects.push(CardData[i]);
-            }
-        }
-        setProjects(projects);
-        setPagesNumber(Math.ceil(projects.length/itemsPerPage));
+        setPagesNumber(Math.ceil(CardData.length/itemsPerPage));
     }, []);
 
     function nextPage(){
@@ -44,7 +36,7 @@ export default function Misc(){
                 pagesNumber={pagesNumber}
             />
             {
-                projects.map((card, index) => (
+                CardData.map((card, index) => (
                     index >= ((currentPage*itemsPerPage) - itemsPerPage) && index < (currentPage * itemsPerPage)?
                     <Card 
                             key={index}
