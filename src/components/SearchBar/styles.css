@@ -1,0 +1,19 @@
+div.search-bar{
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.search-bar input{
+    width: 30%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #541d82;
+}
+@media only screen and (max-width:720px){
+    div.search-bar input{
+        width: 70%;
+    }
+}
