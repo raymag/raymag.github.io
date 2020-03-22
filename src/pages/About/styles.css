@@ -2,16 +2,45 @@
     color: #ffc200;
 }
 img#dev-pic{
-    border-radius: 6px;
+    border-radius:  60px 6px;
     box-shadow: 5px 5px 15px #22222288;
     margin: auto auto 20px auto;
+    min-width: 120px;
 }
 
 p#bio{
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
+    
 }
 
 .react-box{
     padding: 100px 0 !important;
+}
+
+div.bio-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px;
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+div.bio-container div.bio-text{
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+span.italic{
+    font-style: italic;
+}
+@media only screen and (max-width:720px){
+    div.bio-container{
+        max-width: 100%;
+    }
+    div.bio-container div.bio-text{
+        max-width: 90%;
+    }
+    img#dev-pic{
+        border-radius: 6px;
+    }
 }
