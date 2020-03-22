@@ -5,9 +5,13 @@ import { faGithub, faDev, faInstagram, faTwitter, faStackOverflow, faLinkedin, f
 import './styles.css';
 
 export default function Footer(){
+    function goTop(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
     return (
         <footer id="footer">
-        <span>Magno<span className="highlight">DEV</span> | 2020</span>
+        <span onClick={goTop}>Magno<span className="highlight">DEV</span> | 2020</span>
         <ul id="footer-links">
             <li>
                 <a

@@ -9,6 +9,9 @@ footer#footer{
     font-size: 18px;
     font-weight: bold;
 }
+footer#footer span{
+    cursor: pointer;
+}
 footer#footer .highlight{
     color: #ffc200;
 }
