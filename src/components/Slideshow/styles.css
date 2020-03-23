@@ -1,6 +1,5 @@
 section.slideshow{
     width: 80%;
-    /* border: yellow solid 2px; */
 }
 section.slideshow div.slide-holder{
     display: flex;
@@ -11,6 +10,7 @@ section.slideshow div.slide-holder{
 section.slideshow section.current-slide{
     width: 400px;
     height: 300px;
+    margin: auto 10px;
 }
 section.slideshow section.previous-slide,
 section.slideshow section.next-slide{
@@ -22,6 +22,7 @@ section.slideshow section.slide div.slide-thumbnail{
     height: 100%;
     background: #541d82;
     background-size: cover;
+    background-position: center;
     border-radius: 6px;
     box-shadow: 5px 5px 6px #551d829c;
 }
