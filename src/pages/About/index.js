@@ -1,10 +1,12 @@
 import React from 'react';
 import Box from '../../components/Box';
+import Slideshow from '../../components/Slideshow';
 
 import './styles.css';
 
 export default function About(){
     return (
+        <>
         <Box color="#e5e5e5" bgColor="#421567" title="Carlos Magno" column >
             <div className="bio-container">
                 <img src="./assets/dev.jpg" alt="dev" id="dev-pic" title="Magno"/>
@@ -18,5 +20,19 @@ export default function About(){
                 </div>
             </div>
         </Box>
+        <Box title="Gallery">
+            <Slideshow
+                interval={3000}
+                images={[
+                    './assets/slideshow/img_1.jpg',
+                    './assets/slideshow/img_2.jpg',
+                    './assets/slideshow/img_3.jpg',
+                    './assets/slideshow/img_4.jpg',
+                    './assets/slideshow/img_5.jpg',
+                    './assets/slideshow/img_6.jpg'
+                ]}
+            />
+        </Box>
+        </>
     )
 }
