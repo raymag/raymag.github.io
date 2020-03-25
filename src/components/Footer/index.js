@@ -11,7 +11,7 @@ export default function Footer(){
     }
     return (
         <footer id="footer">
-        <span onClick={goTop}>Magno<span className="highlight">DEV</span> | 2020</span>
+        <span onClick={goTop}>&copy; Magno<span className="highlight">DEV</span> | 2020</span>
         <ul id="footer-links">
             <li>
                 <a
