@@ -29,7 +29,15 @@ export default function About(){
                     './assets/slideshow/img_3.jpg',
                     './assets/slideshow/img_4.jpg',
                     './assets/slideshow/img_5.jpg',
-                    './assets/slideshow/img_6.jpg'
+                    './assets/slideshow/img_6.jpg',
+                    './assets/slideshow/img_7.jpg',
+                    './assets/slideshow/img_8.jpg',
+                    './assets/slideshow/img_9.jpg',
+                    './assets/slideshow/img_10.jpg',
+                    './assets/slideshow/img_11.jpg',
+                    './assets/slideshow/img_12.jpg',
+                    './assets/slideshow/img_13.jpg',
+                    './assets/slideshow/img_14.jpg',
                 ]}
             />
         </Box>
