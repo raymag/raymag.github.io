@@ -39,6 +39,8 @@ export default function About(){
                     './assets/slideshow/img_12.jpg',
                     './assets/slideshow/img_13.jpg',
                     './assets/slideshow/img_14.jpg',
+                    './assets/slideshow/img_15.png',
+                    './assets/slideshow/img_16.png',
                 ]}
             />
         </Box>
