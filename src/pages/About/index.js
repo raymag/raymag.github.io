@@ -41,6 +41,7 @@ export default function About(){
                     './assets/slideshow/img_14.png',
                     './assets/slideshow/img_15.png',
                     './assets/slideshow/img_16.png',
+                    './assets/slideshow/img_17.png',
                 ]}
             />
         </Box>
