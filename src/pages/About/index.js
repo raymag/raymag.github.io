@@ -25,8 +25,8 @@ export default function About(){
             <Slideshow
                 interval={3000}
                 images={[
-                    './assets/slideshow/img_1.jpg',
-                    './assets/slideshow/img_2.jpg',
+                    './assets/slideshow/img_1.png',
+                    './assets/slideshow/img_2.png',
                     './assets/slideshow/img_3.jpg',
                     './assets/slideshow/img_4.jpg',
                     './assets/slideshow/img_5.jpg',
@@ -40,8 +40,8 @@ export default function About(){
                     './assets/slideshow/img_13.jpg',
                     './assets/slideshow/img_14.png',
                     './assets/slideshow/img_15.png',
-                    './assets/slideshow/img_16.png',
-                    './assets/slideshow/img_17.png',
+                    './assets/slideshow/img_16.jpg',
+                    './assets/slideshow/img_17.jpg',
                 ]}
             />
         </Box>
