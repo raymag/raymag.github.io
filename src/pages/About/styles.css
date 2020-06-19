@@ -61,3 +61,24 @@ span.italic{
         border-radius: 6px;
     }
 }
+
+span{
+    cursor: pointer;
+}
+.highlight{
+    color: #ffc200;
+}
+ul#footer-links{
+    margin-top: 10px;
+    list-style: none;
+}
+ul#footer-links li{
+    display: inline;
+    margin: 2px 5px;
+    font-size: 30px;
+    transition: all .1s ease-in-out;
+}
+
+ul#footer-links li a:hover{
+    color: #fbff00;
+}   
