@@ -33,6 +33,23 @@ div.bio-container div.bio-text{
 span.italic{
     font-style: italic;
 }
+
+.typing{
+    display: none;
+}
+
+@media only screen and (min-width: 1000px){
+    .typing{
+        display: block;
+        width: 300px;
+        position: absolute;
+        top: 190px;
+        z-index: 2;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+}
+
 @media only screen and (max-width:720px){
     div.bio-container{
         max-width: 100%;

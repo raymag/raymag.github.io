@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from '../../components/Box';
-import Slideshow from '../../components/Slideshow';
+// import Slideshow from '../../components/Slideshow';
 
 import './styles.css';
 
@@ -21,7 +21,7 @@ export default function About(){
                 </div>
             </div>
         </Box>
-        <Box title="Gallery">
+        {/* <Box title="Gallery">
             <Slideshow
                 interval={3000}
                 images={[
@@ -44,7 +44,7 @@ export default function About(){
                     './assets/slideshow/img_17.jpg',
                 ]}
             />
-        </Box>
+        </Box> */}
         </>
     )
 }
