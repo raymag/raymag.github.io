@@ -12,7 +12,6 @@ import Postit from '../../components/Postit';
 export default function Home(){
     return (
         <>
-        <img src="./assets/typing.png" className="typing"/>
         <Box title="Main Projects">
             {
                 CardData.map((card, index) => 
