@@ -1,5 +1,14 @@
 const CardData = [
     {
+        title: 'GameSystem Bot',
+        to: 'https://github.com/raymag/GameSystem',
+        footer: 'Python, Discord.py',
+        body: 'A Discord bot for Tabletop RPG campaigns',
+        thumbnail: './assets/misc/dice.png',
+        category: 'main',
+        type: 'Discord bot'
+    },
+    {
         title: 'Lomotif Maker',
         to: 'https://github.com/raymag/lomotif-maker',
         footer: 'Python, FFMPEG',
@@ -130,7 +139,7 @@ const CardData = [
         footer: 'Unity2D, C#',
         thumbnail: './assets/projects/heart-card.png',
         body: "Protect Guila's territory by all means",
-        category: 'main',
+        category: 'side',
         type: 'game'
     },
     {
