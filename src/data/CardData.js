@@ -1,5 +1,14 @@
 const CardData = [
     {
+        title: 'Shmag',
+        to: 'https://github.com/raymag/shmag-front',
+        footer: 'ReactJS, Axios',
+        body: 'Link Shortener Frontend',
+        thumbnail: './assets/misc/nodes.png',
+        category: 'main',
+        type: 'Link Shorener'
+    },
+    {
         title: 'GameSystem Bot',
         to: 'https://github.com/raymag/GameSystem',
         footer: 'Python, Discord.py',
@@ -14,8 +23,17 @@ const CardData = [
         footer: 'Python, FFMPEG',
         body: 'Easily make lomotif videos',
         thumbnail: './assets/misc/video-file.png',
-        category: 'main',
+        category: 'side',
         type: 'Program'
+    },
+    {
+        title: 'Shmag API',
+        to: 'https://github.com/raymag/shmag',
+        footer: 'NodeJS, MongoDB',
+        body: 'Link Shortener API',
+        thumbnail: './assets/misc/link.png',
+        category: 'side',
+        type: 'Link Shorener API'
     },
     {
         title: 'InstaDown',
