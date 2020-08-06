@@ -1,7 +1,7 @@
 const CardData = [
     {
         title: 'Shmag',
-        to: 'https://github.com/raymag/shmag-front',
+        to: 'https://shmag.netlify.app/',
         footer: 'ReactJS, Axios',
         body: 'Link Shortener Frontend',
         thumbnail: './assets/misc/nodes.png',
