@@ -5,6 +5,11 @@ const BlogPosts = [
         footer: 'Build a simple Quiz REST API using NodeJS and MongoDB'
     },
     {
+        title: 'Building a URL Shortener from Scratch with NodeJS ',
+        to: 'https://dev.to/raymag/building-a-url-shortener-from-scratch-with-nodejs-2o7o',
+        footer: 'Step by Step of how to build URL Shortener API from Zero'
+    },
+    {
         title: 'Build a Slideshow Component with ReactJS ',
         to: 'https://dev.to/raymag/build-a-slideshow-component-with-reactjs-6ec',
         footer: 'Step-to-Step tutorial of how to build a Slideshow component with ReactJS'
