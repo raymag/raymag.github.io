@@ -36,6 +36,14 @@ const CardData = [
         type: 'Link Shorener API'
     },
     {
+        title: 'Retweet Bot',
+        to: 'https://github.com/raymag/retweet-bot',
+        footer: 'NodeJs, Twit',
+        thumbnail: './assets/misc/retweet.png',
+        category: 'side',
+        type: 'Twitter Bot'
+    },
+    {
         title: 'InstaDown',
         to: 'https://github.com/raymag/instadown',
         footer: 'Python, Selenium',
