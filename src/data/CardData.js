@@ -36,6 +36,14 @@ const CardData = [
         type: 'Link Shorener API'
     },
     {
+        title: 'Nope',
+        to: 'https://github.com/raymag/nope',
+        footer: 'Javascript, HTML, CSS',
+        thumbnail: './assets/misc/angry.png',
+        category: 'side',
+        type: 'Browser Extension'
+    },
+    {
         title: 'Retweet Bot',
         to: 'https://github.com/raymag/retweet-bot',
         footer: 'NodeJs, Twit',
@@ -52,11 +60,12 @@ const CardData = [
         type: 'Program'
     },
     {
-        title: 'LanQ',
-        to: 'https://raymag.github.io/lanq',
-        footer: 'ReactJS, Javascript',
-        thumbnail: './assets/misc/translate.png',
-        type: 'Lang Learning Website'
+        title: 'vBorder Radius',
+        to: 'https://raymag.github.io/vborder-radius',
+        footer: 'Javascript, CSS',
+        thumbnail: './assets/misc/creation.png',
+        category: 'side',
+        type: 'website'
     },
     {
         title: 'MCLOCK',
@@ -99,12 +108,20 @@ const CardData = [
         type: 'website'
     },
     {
-        title: 'TIRAPELADA',
-        to: 'https://github.com/raymag/tirapelada',
-        footer: 'PHP, Javascript',
-        thumbnail: './assets/projects/football.png',
+        title: 'Papo Reto',
+        to: 'https://papo-io.herokuapp.com/',
+        footer: 'Python, Flask, SocketIO, Javascript',
+        thumbnail: './assets/projects/sun.png',
+        body: "Chat Room built with Python and WebSockets",
         category: 'side',
-        type: 'website'
+        type: 'chat'
+    },
+    {
+        title: 'LanQ',
+        to: 'https://github.com/raymag/lanq',
+        footer: 'ReactJS, Javascript',
+        thumbnail: './assets/misc/translate.png',
+        type: 'Lang Learning Website'
     },
     {
         title: 'BOND',
@@ -151,15 +168,6 @@ const CardData = [
         type: 'website'
     },
     {
-        title: 'Papo Reto',
-        to: 'https://papo-io.herokuapp.com/',
-        footer: 'Python, Flask, SocketIO, Javascript',
-        thumbnail: './assets/projects/sun.png',
-        body: "Chat Room built with Python and WebSockets",
-        category: 'side',
-        type: 'chat'
-    },
-    {
         title: 'GUILA DEFENSE',
         to: 'https://raymag.github.io/guila_defense/index',
         footer: 'Unity2D, C#',
@@ -167,6 +175,30 @@ const CardData = [
         body: "Protect Guila's territory by all means",
         category: 'side',
         type: 'game'
+    },
+    {
+        title: 'Matrix Fx',
+        to: 'https://codepen.io/Raymag/full/gObVLBw',
+        footer: 'Javascript, Canvas',
+        thumbnail: './assets/misc/hack.png',       
+        category: 'side',
+        type: 'code snippet'
+    },
+    {
+        title: 'TIRAPELADA',
+        to: 'https://github.com/raymag/tirapelada',
+        footer: 'PHP, Javascript',
+        thumbnail: './assets/projects/football.png',
+        category: 'side',
+        type: 'website'
+    },
+    {
+        title: 'Instagram Bot',
+        to: 'https://github.com/raymag/igbot',
+        footer: 'Python, Selenium',
+        thumbnail: './assets/misc/instagram.png',
+        category: 'side',
+        type: 'bot'
     },
     {
         title: 'CONTRIBUIÇÃO OPEN-SOURCE?',
@@ -183,30 +215,6 @@ const CardData = [
         thumbnail: './assets/misc/joystick.png',
         category: 'side',
         type: 'slideshow'
-    },
-    {
-        title: 'Matrix Fx',
-        to: 'https://codepen.io/Raymag/full/gObVLBw',
-        footer: 'Javascript, Canvas',
-        thumbnail: './assets/misc/hack.png',       
-        category: 'side',
-        type: 'code snippet'
-    },
-    {
-        title: 'Instagram Bot',
-        to: 'https://github.com/raymag/igbot',
-        footer: 'Python, Selenium',
-        thumbnail: './assets/misc/instagram.png',
-        category: 'side',
-        type: 'bot'
-    },
-    {
-        title: 'vBorder Radius',
-        to: 'https://raymag.github.io/vborder-radius',
-        footer: 'Javascript, CSS',
-        thumbnail: './assets/misc/creation.png',
-        category: 'side',
-        type: 'website'
     },
 ]
 
