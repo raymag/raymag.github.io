@@ -14,7 +14,7 @@ const CardData = [
         footer: 'Python, Discord.py',
         body: 'A Discord bot for Tabletop RPG campaigns',
         thumbnail: './assets/misc/dice.png',
-        category: 'main',
+        category: 'side',
         type: 'Discord bot'
     },
     {
@@ -139,6 +139,24 @@ const CardData = [
         body: "Share and correct redactions",
         category: 'main',
         type: 'website'
+    },
+    {
+        title: 'Floesia',
+        to: 'https://github.com/raymag/floesia',
+        footer: 'HTML, CSS & JavaScript',
+        body: 'Find and publish amateur poems in a fast and straight way.',
+        thumbnail: './assets/misc/poem.png',
+        category: 'main',
+        type: 'Website'
+    },
+    {
+        title: 'Floesia API',
+        to: 'https://github.com/raymag/floesia-api',
+        footer: 'Node, MongoDB',
+        body: 'API for Floesia API.',
+        thumbnail: './assets/misc/poem-api.png',
+        category: 'side',
+        type: 'REST API'
     },
     {
         title: 'BUTECO',

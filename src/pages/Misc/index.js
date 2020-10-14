@@ -11,7 +11,8 @@ export default function Misc(){
     const itemsPerPage = 8;
     const [currentPage, setCurrentPage] = useState(1);
     const [pagesNumber, setPagesNumber] = useState(1);
-    const [foundProjects, setFoundProjects] = useState(CardData);
+    const [foundProjects, setFoundProjects] = useState(CardData.sort((a, b) => (a.title > b.title ) ? 1 : -1));
+
     useEffect(()=>{
         let pages = Math.ceil(foundProjects.length/itemsPerPage);
         if(pages === 0){
