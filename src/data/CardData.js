@@ -60,6 +60,14 @@ const CardData = [
         type: 'Program'
     },
     {
+        title: 'InstaMage',
+        to: 'https://github.com/raymag/instamage-cli',
+        footer: 'Node, Puppeteer',
+        thumbnail: './assets/misc/instagram-purple.png',
+        category: 'side',
+        type: 'CLI'
+    },
+    {
         title: 'vBorder Radius',
         to: 'https://raymag.github.io/vborder-radius',
         footer: 'Javascript, CSS',
