@@ -242,6 +242,22 @@ const CardData = [
         category: 'side',
         type: 'slideshow'
     },
+    {
+        title: 'SOLITUDE',
+        to: 'https://github.com/raymag/Solitude',
+        footer: 'Python, Tkinter',
+        thumbnail: './assets/misc/muslim.png',
+        category: 'side',
+        type: 'Desktop GUI'
+    },
+    {
+        title: 'PAINHO',
+        to: 'https://github.com/raymag/painho',
+        footer: 'Python',
+        thumbnail: './assets/misc/father.png',
+        category: 'side',
+        type: 'Script'
+    },
 ]
 
 export default CardData;
