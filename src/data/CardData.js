@@ -53,11 +53,11 @@ const CardData = [
     },
     {
         title: 'Emojix',
-        to: 'https://codepen.io/Raymag/full/mdEZmWb',
+        to: 'https://emojix.netlify.app/',
         footer: 'Javascript',
         thumbnail: './assets/misc/smile.png',
         category: 'side',
-        type: 'Codepen'
+        type: 'Matrix but with Emojis'
     },
     {
         title: 'InstaDown',
