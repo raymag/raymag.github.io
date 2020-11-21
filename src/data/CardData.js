@@ -52,6 +52,14 @@ const CardData = [
         type: 'Twitter Bot'
     },
     {
+        title: 'Emojix',
+        to: 'https://codepen.io/Raymag/full/mdEZmWb',
+        footer: 'Javascript',
+        thumbnail: './assets/misc/smile.png',
+        category: 'side',
+        type: 'Codepen'
+    },
+    {
         title: 'InstaDown',
         to: 'https://github.com/raymag/instadown',
         footer: 'Python, Selenium',
