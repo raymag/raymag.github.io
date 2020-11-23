@@ -153,7 +153,7 @@ const CardData = [
         footer: 'PHP, Python, MongoDB, Javascript',
         thumbnail: './assets/projects/star.png',
         body: "Share and correct redactions",
-        category: 'main',
+        category: 'side',
         type: 'website'
     },
     {
@@ -265,6 +265,15 @@ const CardData = [
         thumbnail: './assets/misc/father.png',
         category: 'side',
         type: 'Script'
+    },
+    {
+        title: 'Alumiart',
+        to: 'https://alumiart-web.vercel.app/',
+        footer: 'ReactJS',
+        body: 'Esquadrias de Alumínio',
+        thumbnail: './assets/misc/window.png',
+        category: 'main',
+        type: 'Webiste'
     },
 ]
 
