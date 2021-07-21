@@ -1,5 +1,15 @@
 const SkillsData = [
     {
+        title: "ReactJS",
+        thumbnail: "./assets/misc/react.png",
+        category: "skill"
+    },
+    {
+        title: "NodeJS",
+        thumbnail: "./assets/skills/nodejs.png",
+        category: "skill"
+    },    
+    {
         title: "MongoDB",
         thumbnail: "./assets/skills/mongodb.png",
         category: "skill"
@@ -10,15 +20,10 @@ const SkillsData = [
         category: "skill"
     },
     {
-        title: "ReactJS",
-        thumbnail: "./assets/misc/react.png",
+        title: "NextJS",
+        thumbnail: "./assets/skills/nextjs.png",
         category: "skill"
     },
-    {
-        title: "NodeJS",
-        thumbnail: "./assets/skills/nodejs.png",
-        category: "skill"
-    },    
     {
         title: "Python",
         thumbnail: "./assets/skills/python.png",
