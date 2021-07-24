@@ -276,6 +276,14 @@ const CardData = [
 		type: "Script",
 	},
 	{
+		title: "ETHERIAL",
+		to: "https://github.com/raymag/etherial",
+		footer: "Angular",
+		thumbnail: "./assets/misc/eclipse.png",
+		category: "side",
+		type: "Webapp",
+	},
+	{
 		title: "Alumiart",
 		to: "https://alumiart-web.vercel.app/",
 		footer: "ReactJS",
