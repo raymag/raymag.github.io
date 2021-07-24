@@ -45,8 +45,13 @@ const SkillsData = [
         category: "skill"
     },
     {
-        title: "Puppeteer",
-        thumbnail: "./assets/skills/puppeteer.png",
+        title: "Angular",
+        thumbnail: "./assets/skills/angular.svg",
+        category: "skill"
+    },
+    {
+        title: "PHP",
+        thumbnail: "./assets/skills/php.png",
         category: "skill"
     },
     {
@@ -55,8 +60,8 @@ const SkillsData = [
         category: "skill"
     },
     {
-        title: "PHP",
-        thumbnail: "./assets/skills/php.png",
+        title: "Puppeteer",
+        thumbnail: "./assets/skills/puppeteer.png",
         category: "skill"
     },
     {
