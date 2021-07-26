@@ -281,7 +281,15 @@ const CardData = [
 		footer: "Angular",
 		thumbnail: "./assets/misc/eclipse.png",
 		category: "side",
-		type: "Webapp",
+		type: "Weather Webapp",
+	},
+	{
+		title: "VList",
+		to: "https://github.com/raymag/vlist",
+		footer: "VueJS",
+		thumbnail: "./assets/skills/vue.png",
+		category: "side",
+		type: "TodoList Webapp",
 	},
 	{
 		title: "Alumiart",

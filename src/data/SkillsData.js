@@ -50,6 +50,11 @@ const SkillsData = [
         category: "skill"
     },
     {
+        title: "VueJS",
+        thumbnail: "./assets/skills/vue.png",
+        category: "skill"
+    },
+    {
         title: "PHP",
         thumbnail: "./assets/skills/php.png",
         category: "skill"
