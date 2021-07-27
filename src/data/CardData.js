@@ -292,6 +292,14 @@ const CardData = [
 		type: "TodoList Webapp",
 	},
 	{
+		title: "Tasker",
+		to: "https://github.com/raymag/tasker",
+		footer: "Angular, Angular Material",
+		thumbnail: "./assets/misc/tasks.png",
+		category: "side",
+		type: "TodoList Webapp",
+	},
+	{
 		title: "Alumiart",
 		to: "https://alumiart-web.vercel.app/",
 		footer: "ReactJS",
