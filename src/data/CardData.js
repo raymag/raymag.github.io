@@ -260,6 +260,14 @@ const CardData = [
 		type: "slideshow",
 	},
 	{
+		title: "Passcat",
+		to: "https://github.com/raymag/passcat-web",
+		footer: "Javascript, HTML, CSS",
+		thumbnail: "./assets/misc/passcat.png",
+		category: "side",
+		type: "Webpage",
+	},
+	{
 		title: "SOLITUDE",
 		to: "https://github.com/raymag/Solitude",
 		footer: "Python, Tkinter",
@@ -298,6 +306,14 @@ const CardData = [
 		thumbnail: "./assets/misc/tasks.png",
 		category: "side",
 		type: "TodoList Webapp",
+	},
+	{
+		title: "Passcat Ext",
+		to: "https://github.com/raymag/passcat-ext",
+		footer: "Javascript, HTML, CSS",
+		thumbnail: "./assets/misc/passcat.png",
+		category: "side",
+		type: "Browser Extension",
 	},
 	{
 		title: "Alumiart",
